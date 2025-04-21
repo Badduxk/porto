@@ -1,5 +1,4 @@
 import { RevealOnScroll } from "./RevealOnScroll"
-import mrezaImage from 'public/assets/mreza.png'
 
 export const About = () => {
 
