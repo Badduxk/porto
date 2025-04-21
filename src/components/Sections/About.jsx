@@ -1,4 +1,5 @@
 import { RevealOnScroll } from "./RevealOnScroll"
+import mrezaImg from "../../assets/mreza.png";
 
 export const About = () => {
 
@@ -16,7 +17,7 @@ export const About = () => {
                 About Me
             </h2>
             
-            <img  src="/mreza.png" alt="About Me" className="mx-auto mb-6 w-100 h-100 rounded-full object-cover shadow-lg mt-12" />   
+            <img  src={mrezaImg} alt="About Me" className="mx-auto mb-6 w-100 h-100 rounded-full object-cover shadow-lg mt-12" />   
 
             <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
                 <p className="text-gray-300 mb-6 text-center">
